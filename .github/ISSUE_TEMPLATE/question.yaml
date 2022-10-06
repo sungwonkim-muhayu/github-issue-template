@@ -1,9 +1,9 @@
 name: Question
 description: "소프트웨어에 대한 일반적인 질문을 합니다."
-title: "[bug]: "
+title: "[question]: "
 assignees:
   - sungwonkim-muhayu
-labels: ["bug"]
+labels: ["question"]
 body:
   - type: markdown
     attributes:

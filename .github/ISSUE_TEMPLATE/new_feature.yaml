@@ -1,6 +1,6 @@
 name: New Feature
 description: "필요한, 새로운 기능을 제안합니다."
-title: "[Feature]: "
+title: "[enhancement]: "
 assignees:
   - sungwonkim-muhayu
 labels: ["enhancement"]
