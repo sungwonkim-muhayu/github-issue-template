@@ -1,4 +1,4 @@
-name: 버그
+name: test
 description: "소프트웨어 사용 중 발생한 버그를 보고합니다."
 title: "[버그]: "
 labels: ["bug"]
