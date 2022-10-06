@@ -1,62 +1,24 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+name: 버그
+description: "소프트웨어 사용 중 발생한 버그를 보고합니다."
+labels: [">bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Github-Issues-버그 항목은 소프트웨어 사용 중 발생한 버그를 보고하는 용도입니다.  
+        소프트웨어에 대한 일반적인 질문을 위한 항목은 E-mail (swsz@kakao.com)을 통해 연락바랍니다.         
+        아래 나열된 항목에 대해 명확하게 작성하지 않을 경우 이슈가 해결되지 않은 상태로 닫힐 수 있습니다.
   - type: input
-    id: contact
+    id: 릴리즈 버전
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Release version
+      description: 버그가 확인된 소프트웨어의 릴리즈 버전을 기입해 주세요.
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: input
+    id: 확인된 버그 또는 증상
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Installed Plugins
+      description: 버그 또는 증상에 대해 자세히 기입해 주세요.
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
