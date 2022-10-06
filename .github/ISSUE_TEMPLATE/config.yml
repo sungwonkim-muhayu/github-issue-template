@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: Notion
+    url: https://www.notion.so/swsz/71544d45856d4c4b9c0058a4894fdc44
+    about: "레파지토리 소유자의 Notion으로 이동합니다."
